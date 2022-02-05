@@ -1,0 +1,31 @@
+{
+  "private": false,
+  "name": "remix-mui-starter",
+  "description": "Remix, MUI library, JavaScript project starter.",
+  "license": "MIT",
+  "scripts": {
+    "build": "remix build",
+    "dev": "remix dev",
+    "postinstall": "remix setup node",
+    "start": "remix-serve build"
+  },
+  "dependencies": {
+    "@emotion/cache": "latest",
+    "@emotion/react": "latest",
+    "@emotion/server": "latest",
+    "@emotion/styled": "latest",
+    "@mui/material": "latest",
+    "@remix-run/react": "latest",
+    "@remix-run/serve": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "remix": "latest"
+  },
+  "devDependencies": {
+    "@remix-run/dev": "latest"
+  },
+  "engines": {
+    "node": ">=14"
+  },
+  "sideEffects": false
+}
